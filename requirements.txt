@@ -1,0 +1,6 @@
+gradio>=5.0,<6.0
+torch>=2.2
+torchvision>=0.17
+pillow>=10.0
+kagglehub>=0.4
+transformers>=4.45,<5.0

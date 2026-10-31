@@ -1,0 +1,43 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+
+# ── Caches & model weights (large files) ──
+.feature_cache/
+.model_cache/
+.cache/
+
+# ── Training artifacts & datasets ──
+artifacts/
+data/
+
+# ── PDFs and large binary files ──
+*.pdf
+
+# ── Jupyter notebook checkpoints ──
+.ipynb_checkpoints/
+
+# ── Notebook files (large, not needed for deployment) ──
+*.ipynb
+
+# ── OS-generated files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor files ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
